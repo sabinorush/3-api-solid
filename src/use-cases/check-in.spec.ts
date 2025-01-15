@@ -33,8 +33,6 @@ describe('Register Use Case', () => {
     vi.useRealTimers()
   })
 
-
-
   it('should be able to check in', async () => {
 
     const { checkIn } = await sut.execute({
