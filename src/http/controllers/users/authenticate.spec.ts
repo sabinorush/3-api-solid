@@ -11,7 +11,7 @@ describe('Authenticate (e2e)', () => {
     await app.close()
   })
 
-  it('should be abe to register', async () => {
+  it('should be able to register', async () => {
 
     await request(app.server)
       .post('/users')
