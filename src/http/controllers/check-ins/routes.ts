@@ -24,5 +24,4 @@ export async function checkInsRoutes(app: FastifyInstance) {
     validate,
   )
 
-
 }
